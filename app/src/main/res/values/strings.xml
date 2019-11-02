@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UICoding6</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="logo">LOGIN</string>
+    <string name="submit">submit</string>
+</resources>

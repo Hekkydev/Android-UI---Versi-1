@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7F00"
+    android:theme="@style/AppThemeNoActionBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="30dp"
+
+        android:fontFamily="monospace"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:visibility="visible"
+        tools:text="LOGO"
+        tools:visibility="visible"></TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="monospace"
+        android:inputType="text"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#d5d5d5"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:background="#d5d5d5"
+        android:hint="@string/password"
+        />
+    <Button
+        android:id="@+id/buttonLogin"
+        android:fontFamily="monospace"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#333"
+        android:textColor="@color/white"
+
+        ></Button>
+</RelativeLayout>
